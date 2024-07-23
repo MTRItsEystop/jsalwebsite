@@ -4,4 +4,16 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 500px;
+    size: 20cm;
 }
